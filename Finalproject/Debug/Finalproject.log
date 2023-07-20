@@ -1,0 +1,24 @@
+﻿Build started 13-07-2023 14:54:52.
+     1>Project "C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Finalproject\Finalproject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Finalproject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Towerofhanoi.cpp
+         Towerofhanoi.cpp
+     1>c:\users\hp\documents\visual studio 2010\projects\finalproject\finalproject\towerofhanoi.cpp(202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\hp\documents\visual studio 2010\projects\finalproject\finalproject\towerofhanoi.cpp(1214): warning C4101: 'i' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Debug\Finalproject.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Finalproject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Debug\Finalproject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Debug\Finalproject.lib" /MACHINE:X86 Debug\Towerofhanoi.obj
+         LINK : C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Debug\Finalproject.exe not found or not built by the last incremental link; performing full link
+         Finalproject.vcxproj -> C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Debug\Finalproject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Debug\Finalproject.exe;#1" /manifest Debug\Finalproject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Finalproject.unsuccessfulbuild".
+         Touching "Debug\Finalproject.lastbuildstate".
+     1>Done Building Project "C:\Users\HP\documents\visual studio 2010\Projects\Finalproject\Finalproject\Finalproject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
